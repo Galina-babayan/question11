@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.column_1,
+.block_2,
+.column_2,
+.column_3 {
+  flex-grow: 1;
+}
+
+.block_1,
+.block_2,
+.row {
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.Column {
+  display: flex;
+  margin: 5px 5px 0px 5px;
+  justify-content: space-between;
+}
+
+.column_1 {
+  display: flex;
+  margin: 0px 5px 5px 0px;
+  flex-direction: column;
+}
+
+.block_1 {
+  margin: 0px 0px 5px 0px;
+}
+
+.column_2 {
+  margin: 0px 5px 0px 0px;
+}
+
+.row {
+  margin: 0px 5px 5px 5px;
+}
